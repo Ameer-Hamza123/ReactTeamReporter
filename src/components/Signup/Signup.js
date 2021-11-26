@@ -2,9 +2,9 @@ import { Link } from "react-router-dom";
 import {  Button } from 'antd';
 import 'antd/dist/antd.css';
 
-const Signin = ()=>{
+const Signup = ()=>{
     return(
-<Button><Link to="signup">Signup</Link> </Button>
+<Button><Link to="/">Home</Link> </Button>
 );
 }
-export default Signin;
+export default Signup;
